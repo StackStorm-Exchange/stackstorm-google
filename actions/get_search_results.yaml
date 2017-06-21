@@ -1,6 +1,6 @@
 ---
   name: "get_search_results"
-  runner_type: "run-python"
+  runner_type: "python-script"
   description: "Retrieve Google search results for the provided query."
   enabled: true
   entry_point: "get_search_results.py"
