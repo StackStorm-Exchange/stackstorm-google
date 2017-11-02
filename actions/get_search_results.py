@@ -2,7 +2,7 @@ import json
 
 from google import google
 
-from st2actions.runners.pythonrunner import Action
+from st2common.runners.base_action import Action
 
 from lib.formatters import google_result_to_dict
 
